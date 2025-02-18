@@ -27,7 +27,7 @@
     "protobufjs": "^6.8.8",
     "react": "16.9.0",
     "react-native": "0.61.4",
-    "react-native-gesture-handler": "^1.5.2",
+    "react-native-gesture-handler": "^1.10.3",
     "react-native-reanimated": "^1.4.0",
     "react-native-screens": "^1.0.0-alpha.23",
     "react-navigation": "^4.0.10",
