@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "buffer": "^5.4.3",
-    "protobufjs": "^6.8.8",
+    "protobufjs": "^6.11.4",
     "react": "16.9.0",
     "react-native": "0.61.4",
     "react-native-gesture-handler": "^1.5.2",
