@@ -20,7 +20,9 @@
     "e2e:debug:android": "npm run e2e:debug:build:android && npm run e2e:debug:test:android",
     "e2e:build:android": "detox build --configuration=android.emu.release",
     "e2e:test:android": "detox test --configuration=android.emu.release",
-    "e2e:android": "npm run e2e:build:android && npm run e2e:test:android"
+    "e2e:android": "npm run e2e:build:android && npm run e2e:test:android",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "buffer": "^5.4.3",
@@ -31,7 +33,8 @@
     "react-native-reanimated": "^1.13.4",
     "react-native-screens": "^1.0.0-alpha.23",
     "react-navigation": "^4.0.10",
-    "react-navigation-stack": "^1.10.3"
+    "react-navigation-stack": "^1.10.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -91,5 +94,6 @@
         }
       }
     }
-  }
+  },
+  "snyk": true
 }
